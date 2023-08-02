@@ -1,0 +1,13 @@
+[
+  { "name": "드래곤길들이기 1", "vote": "?", "image": "image/dragon1.jpeg" },
+  {
+    "name": "드래곤 길들이기 2",
+    "vote": "?",
+    "image": "image/dragon2.jpeg"
+  },
+  {
+    "name": "드래곤 길들이기 3",
+    "vote": "?",
+    "image": "image/dragon3.jpeg"
+  }
+]

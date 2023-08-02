@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+.container {
+  padding: 4rem 0;
+  min-width: 900px;
+  background-color: rgb(16, 23, 62);
+}
+.banner {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+.banner > span {
+  color: #ffee00;
+  font-size: 2.8rem;
+}
+.avatarcontainer {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+}
+.avatarwrap {
+  margin: 0 auto;
+  width: 280px;
+  height: 480px;
+  position: relative;
+}
+.photo {
+  width: 250px;
+  height: 350px;
+  border: 0.3rem solid rgb(200, 0, 0);
+}
+.name {
+  font-size: 1.5rem;
+  margin: 0.7rem 0 0 0;
+  font-weight: 700;
+  color: #fff;
+}
+.lunching {
+  width: 280px;
+  color: #ddd;
+  margin-top: 0.7rem;
+  position: absolute;
+  bottom: 5%;
+  display: block;
+  margin: 0 auto;
+}
+.isNew {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 0.3rem;
+  width: 5rem;
+  height: 2rem;
+  background-color: #ffee00;
+  position: absolute;
+  top: 2%;
+  right: 0;
+  border-radius: 0.3rem;
+}
+.vs {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(221, 221, 221, 0.562);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+  border-radius: 100%;
+  padding-top: 0.7rem;
+  text-align: center;
+  margin-top: 145px;
+}
+.countercontainer {
+  width: 900px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+.countwrap {
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
+}
+.count {
+  color: #c80000;
+  font-size: 3rem;
+  margin: 0;
+}
+.countbutton {
+  width: 100px;
+  height: 30px;
+  font-size: 1.1rem;
+  border: rgb(91, 96, 203) 1px solid;
+  color: #fff;
+  background-color: rgb(43, 75, 214);
+  border-radius: 0.4rem;
+  font-weight: 500;
+}
+.total {
+  width: 200px;
+  height: 150px;
+  margin: 0;
+  color: #ddd;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0;
+}
+.totalcount {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ddd;
+  margin: 0.6rem;
+}
+.moviecontainer {
+  padding: 2rem;
+}
+.checkcontainer {
+  width: 800px;
+  
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+.movielist {
+  display: flex;
+  padding: 0;
+}
+.movielist > li {
+  width: 150px;
+  margin: 0 auto;
+}
+.moviewrap > img {
+  width: 150px;
+}
+.moviewrap > p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ddd;
+}
+.label {
+  color: #ddd;
+}
+.showbutton {
+  width: 150px;
+  height: 30px;
+  font-size: 1rem;
+  background-color: rgb(171, 170, 170);
+  border-radius: 0.3rem;
+  color: rgb(37, 37, 37);
+}
+.empty {
+  width: 100%;
+  height: 5rem;
+}
+.loading {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
