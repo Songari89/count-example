@@ -4,8 +4,6 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Appprofile from "./Appprofile";
-import AppCounter from "./AppCounter";
-import AppMovie from "./AppMovie";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
